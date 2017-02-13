@@ -10,8 +10,14 @@ import sys
 #
 # print(word * num)
 
-import math
+# import math
+#
+# sq = float(sys.argv[1])
+# result = math.sqrt(sq)
+# print(result)
 
-sq = float(sys.argv[1])
-result = math.sqrt(sq)
-print(result)
+from math import sin, cos, pi
+#import math  # it doesn't work with sin and cos without math.sin, math.cos
+x = float(sys.argv[1])
+one = sin(x)**2 + cos(x)**2
+print(one)
