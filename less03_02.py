@@ -4,7 +4,7 @@ import sys
 #b = float(sys.argv[2])
 #c = a * b
 #print(c)
-
+#tt
 # word = sys.argv[1]
 # num = int(sys.argv[2])
 #
@@ -21,3 +21,4 @@ from math import sin, cos, pi
 x = float(sys.argv[1])
 one = sin(x)**2 + cos(x)**2
 print(one)
+
