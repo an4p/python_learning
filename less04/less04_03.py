@@ -1,0 +1,11 @@
+input_file=open("1.txt")
+#all_read = input_file.read()
+
+#print(all_read)
+#n_read = input_file.read(3)
+#print(n_read)
+#line = input_file.read(1)
+#print(line)
+lines = input_file.readlines()
+print(lines)
+input_file.close()
