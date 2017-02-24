@@ -2,11 +2,10 @@ varFileRead = open("file_read.txt", 'r')
 wordList = []
 
 for line in varFileRead:
-    tempList = []
-    tempList.extend(line.lower().split())
+    tempList = line.lower().split()
     for l in tempList:
+        l = l.strip(".").strip(",")
         if l.isalpha():
-            # wordList.extend(l) doesn't work correctly for this case
             wordList.append(l)
 print(wordList, end="\n")
 

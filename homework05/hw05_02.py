@@ -7,6 +7,5 @@ print(filteredList, file=open("file05_02.txt", "w"))
 for word in words:
     if word[0].lower() not in ("a", "b", "c"):
         continue
-    else:
-        print(word)
-        print(word, file = open("file05_02a.txt", "a"))
+    print(word)
+    print(word, file = open("file05_02a.txt", "a"))
