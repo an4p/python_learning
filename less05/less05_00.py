@@ -1,10 +1,5 @@
+#newFile = open("newFile.txt", 'a')
 file = open("fileForReading.txt", 'r+')
-# line = file.readline()
-# while line:
-#     print(line, end="")
-#     #it is impossible to print line+"!" because of new line
-#     line = file.readline()
-
 
 for line in file:
     #line = file.readline().strip() #it does not correct
